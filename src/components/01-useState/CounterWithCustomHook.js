@@ -2,9 +2,6 @@ import React from 'react';
 import { useCounter } from '../../hooks/useCounter';
 
 
-import "./counter.css";
-
-
 const CounterWithCustomHook = () => {
   const { state, increment, decrement, reset } = useCounter(200);
 

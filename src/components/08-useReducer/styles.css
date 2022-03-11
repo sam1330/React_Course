@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+* {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.list-group-item {
+
+}
+
+p {
+  margin: 0px;
+  cursor: pointer;
+}
+
+.complete {
+  text-decoration: line-through;
+}
+
+li {
+  align-items: center;
+  box-shadow: 0px 0px 2px 0.5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  padding: 10px;
+}
+
+.done {
+  border-left: 4px green solid;
+  color: green;
+}
+.pending {
+  border-left: 4px blue solid;
+  color: blue;
+}

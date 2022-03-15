@@ -1,6 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import MainApp from './components/09-useContext/MainApp';
+
+import "./index.css"
+
+
 // // import HookApp from "./HookApp";
 // // import CounterApp from './components/01-useState/CounterApp';
 // // import CounterWithCustomHook from './components/01-useState/CounterWithCustomHook';
@@ -15,9 +20,7 @@ import ReactDOM from 'react-dom';
 // import { Father } from './components/07-tarea-memo/Father';
 
 // import TodoApp from './components/08-useReducer/TodoApp';
-import MainApp from './components/09-useContext/MainApp';
 
-import "./index.css"
 
 ReactDOM.render(
     <MainApp />,

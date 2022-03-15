@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HookApp /> Tests Should show correctly 1`] = `
+<Fragment>
+  <h1
+    class="bg-dark"
+  >
+    Hola Mundo
+  </h1>
+</Fragment>
+`;

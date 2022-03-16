@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TodoListItem /> tests should render the component 1`] = `
+<li
+  className="pending"
+  key="1"
+>
+  <p
+    onClick={[Function]}
+  >
+    1
+    . 
+    Learn React
+  </p>
+  <button
+    className="btn btn-outline-danger ml-3"
+    onClick={[Function]}
+  >
+    Delete
+  </button>
+</li>
+`;

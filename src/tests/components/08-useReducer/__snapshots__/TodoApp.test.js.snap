@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TodoApp /> tests should render the component 1`] = `
+<div
+  className="container"
+>
+  <h1
+    className="font-weight-bold"
+  >
+    Todo App ( 
+    0
+     )
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-6"
+    >
+      <h4
+        className="font-weight-bold"
+      >
+        Todos
+      </h4>
+      <hr />
+      <TodoList
+        handleDelete={[Function]}
+        handleToggle={[Function]}
+        todos={Array []}
+      />
+    </div>
+    <div
+      className="col-6"
+    >
+      <TodoAdd
+        handleAddTodo={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -25,10 +25,6 @@ describe("<TodoAdd /> tests", () => {
     expect(handleAddTodo).toHaveBeenCalledTimes(0);
   });
 
-  // test('should receive the handleAddTodo function', () => {
-  //   expect(wrapper.prop('handleAddTodo')).toEqual(expect.any(Function));
-  // });
-
   test('should call handleAddTodo', () => {
 
     const value = 'Learn React';

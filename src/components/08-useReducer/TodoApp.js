@@ -45,7 +45,7 @@ const TodoApp = () => {
 
   return (
     <div className="container">
-      <h1 className="font-weight-bold"> Todo App</h1>
+      <h1 className="font-weight-bold">Todo App ( {todos.length} )</h1>
       <hr />
       <div className="row">
         <div className="col-6">

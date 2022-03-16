@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeScreen /> tests should render component correctly 1`] = `
+Array [
+  <h1>
+    Home
+  </h1>,
+  <hr />,
+  <pre>
+    {
+   "name": "Sammy",
+   "email": "sammy13@g.com"
+}
+  </pre>,
+  <button
+    className="btn btn-outline-danger"
+    onClick={[Function]}
+  >
+    Logout
+  </button>,
+]
+`;

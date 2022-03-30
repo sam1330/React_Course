@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AppRouter /> tests should render correctly 1`] = `
+<div>
+  <nav
+    className="navbar navbar-expand-lg navbar-light bg-light"
+  >
+    <a
+      className="navbar-brand"
+      href="/"
+      onClick={[Function]}
+    >
+      useContext
+    </a>
+    <div
+      className="collapse navbar-collapse"
+      id="navbarNavAltMarkup"
+    >
+      <div
+        className="navbar-nav"
+      >
+        <a
+          aria-current="page"
+          className="nav-link active"
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+        <a
+          className="nav-link"
+          href="/about"
+          onClick={[Function]}
+        >
+          About
+        </a>
+        <a
+          className="nav-link"
+          href="/login"
+          onClick={[Function]}
+        >
+          Login
+        </a>
+      </div>
+    </div>
+  </nav>
+  Array [
+    <h1>
+      Home
+    </h1>,
+    <hr />,
+    <pre>
+      {
+   "name": "Sammy",
+   "email": "sammy13@g.com"
+}
+    </pre>,
+    <button
+      className="btn btn-outline-danger"
+      onClick={[Function]}
+    >
+      Logout
+    </button>,
+  ]
+</div>
+`;

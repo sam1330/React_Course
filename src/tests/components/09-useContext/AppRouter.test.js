@@ -1,9 +1,9 @@
-import { mount } from "enzyme";
 import React from "react";
-import HomeScreen from "../../../components/09-useContext/HomeScreen";
+import { mount } from "enzyme";
+import AppRouter from "../../../components/09-useContext/AppRouter";
 import { UserContext } from "../../../components/09-useContext/UserContext";
 
-describe("<HomeScreen /> tests", () => {
+describe("<AppRouter /> tests", () => {
 
   const user = {
     name: "Sammy",
@@ -11,12 +11,12 @@ describe("<HomeScreen /> tests", () => {
   };
 
   const wrapper = mount(
-    <UserContext.Provider value={{ user }}>
-      <HomeScreen />
+    <UserContext.Provider value={ { user } }>
+      <AppRouter />
     </UserContext.Provider>
   );
-  
-  test('should render component correctly', () => {
+
+  test('should render correctly', () => {
 
     expect(wrapper).toMatchSnapshot();
 
